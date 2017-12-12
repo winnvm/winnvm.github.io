@@ -1,9 +1,9 @@
-repository: tomjoht/documentation-theme-jekyll
+repository: winnvm/winnvm
 output: web
 topnav_title: WinNvm
 site_title: Windows NodeJS Version Manager
 company_name: WinNvm
-github_editme_path: winnvm/winnvm.github.io/blob/master/docs/
+github_editme_path: winnvm/winnvm.github.io/blob/master/
 exclude:
   - .idea/
   - .gitignore
@@ -65,4 +65,4 @@ description: "NodeJs version manager for Windows"
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
-url: https://seenukarthi.com/winnvm/
+url: https://winnvm.github.io
