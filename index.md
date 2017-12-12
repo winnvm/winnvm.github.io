@@ -1,6 +1,5 @@
 ---
 title: "Introduction to WinNvm"
-tags: [introduction]
 sidebar: winnvm_100_sidebar
 permalink: /index.html
 ---
