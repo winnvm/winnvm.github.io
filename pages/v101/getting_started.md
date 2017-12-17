@@ -1,9 +1,7 @@
 ---
 title: Getting Started
-sidebar: winnvm_100_sidebar
-permalink: /v100/getting_started.html
-folder: v100/
-
+sidebar: winnvm_101_sidebar
+permalink: /v101/getting_started.html
 ---
 
 ## Prerequisite
@@ -18,7 +16,7 @@ The following environment variables should be present.
 Add `NVM_SYMLINK` to you `PATH`
 
 ## Installation
-Download [WinNvm](https://github.com/winnvm/winnvm/releases/download/v1.0.0/Winnvm_v1.0.0.zip) and extract to a folder. Add the extracted folder to path.
+Download [WinNvm](https://github.com/winnvm/winnvm/releases/download/WinNvm_v1.0.1.zip) and extract to a folder. Add the extracted folder to path.
 
 ## Testing the installation.
 Open command prompt and try `winnvm -v` which should print the version.

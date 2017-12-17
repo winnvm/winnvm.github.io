@@ -5,3 +5,14 @@ topnav:
   items:
     - title: GitHub
       external_url: https://github.com/winnvm/winnvm
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: Releases
+      folderitems:
+        - title: Version 1.0.1
+          url: /v101/index.html
+        - title: Version 1.0.0
+          url: /v100/index.html

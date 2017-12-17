@@ -3,18 +3,18 @@
 entries:
 - title: sidebar
   product: WinNvm
-  version: 1.0.0
+  version: 1.0.1
   folders:
   - title: Overview
     output: web
     folderitems:
     - title: Introduction
-      url: /v100/index.html
+      url: /v101/index.html
       output: web
       type: homepage
     - title: Getting Started
-      url: /v100/getting_started.html
+      url: /v101/getting_started.html
       output: web
     - title: Options and Configurations
-      url: /v100/options_and_configuration.html
+      url: /v101/options_and_configuration.html
       output: web
