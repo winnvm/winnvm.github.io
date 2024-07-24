@@ -1,8 +1,7 @@
 ---
-title: "Introduction to WinNvm"
-sidebar: winnvm_100_sidebar
-permalink: /index.html
-hide_sidebar: true
+title: Home
+layout: home
+nav_order: 1
 ---
 
 ## What is WinNvm?
@@ -13,6 +12,4 @@ The short answer is because it can be. The long answer is I what to do some modi
 
 ## Latest Release
 
-[Release 1.0.1](/v101/index.html)
-
-{% include links.html %}
+[Release 1.0.2](/docs/releases/1_0_2/)
