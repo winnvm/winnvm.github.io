@@ -3,3 +3,12 @@ description: A Node Version Manager.
 theme: just-the-docs
 
 url: https://winnvm.github.io
+
+# Aux links for the upper right navigation
+aux_links:
+  "GitHub": "//github.com/winnvm/winnvm"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
+
+heading_anchors: true
