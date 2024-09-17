@@ -1,1 +1,30 @@
-// custom SCSS (or CSS) goes here
+body {
+    font-family:
+        "Ubuntu",
+        system-ui,
+        -apple-system,
+        blinkmacsystemfont,
+        "Segoe UI",
+        roboto,
+        "Helvetica Neue",
+        arial,
+        sans-serif,
+        "Segoe UI Emoji";
+    font-size: inherit;
+    line-height: 1.4;
+    color: $body-text-color;
+    background-color: $body-background-color;
+    overflow-wrap: break-word;
+}
+
+code {
+    font-family: "Ubuntu Mono", "SFMono-Regular", menlo, consolas, monospace;
+    font-size: 1em;
+    line-height: $body-line-height;
+}
+
+figure,
+pre {
+    margin: 0;
+    line-height: 1;
+}
