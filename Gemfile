@@ -1,4 +1,4 @@
-#ruby=ruby-3.2.3
+#ruby=ruby-3.4.6
 source 'https://rubygems.org'
 
 Encoding.default_external = Encoding::UTF_8
@@ -13,3 +13,5 @@ gem "just-the-docs", "0.10.0" # pinned to the current release
 
 
 gem "rexml", ">= 3.3.3"
+gem "csv"
+gem "base64"
