@@ -27,4 +27,4 @@ Windows with .NET Framework 4.8 or later.
 ## Testing the installation.
 Open command prompt and try `winnvm -v` which should print the version.
 
-[download]:https://github.com/winnvm/winnvm/releases/download/v1.0.2/WinNvm_v1.0.2.zip
+[download]:https://github.com/winnvm/winnvm/releases/download/v1.0.3/WinNvm-v1.0.3.zip
