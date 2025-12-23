@@ -1,4 +1,4 @@
-#ruby=ruby-3.4.6
+#ruby=ruby-3.4.7
 source 'https://rubygems.org'
 
 Encoding.default_external = Encoding::UTF_8
