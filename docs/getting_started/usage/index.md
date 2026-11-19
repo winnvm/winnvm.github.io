@@ -12,16 +12,19 @@ Usage: winnvm [OPTIONS]
 
 Options:
 
-    -i, --install <verison>    To install a new version of NodeJS
+    -i, --install <version>    To install a new version of NodeJS
+    -l, --list                 To list all installed versions of NodeJS
     -u, --use <version>        To use the given version of NodeJS
     -r, --remove <version>     To uninstall a version of NodeJS
     -h, --help                 Show this message
     -v, --version              Display Version
 ```
 
-## Install a version of NodeJS.
+Only one command option can be specified per invocation. Options also accept `/` prefixes (e.g., `/i`, `/list`) and inline values (`--install=20.11.0`, `--install:20.11.0`, or `-i20.11.0`). A leading `v` in the version (such as `v20.11.0`) is optional.
 
-To install a version a NodeJS use the following command where `<version>` is the version of the NodeJS.
+## Install a Version of Node.js
+
+Download and install a specific version of Node.js. WinNvm verifies the archive's SHA256 checksum against `SHASUMS256.txt` before extracting it into `NVM_HOME`.
 
 ```batch
 winnvm -i <version>
@@ -33,9 +36,23 @@ or
 winnvm --install <version>
 ```
 
-## To use a installed NodeJS.
+## List Installed Versions of Node.js
 
-To use an already installed NodeJS version use the following command where `<version>` is the version of the NodeJS.
+List all Node.js versions installed in `NVM_HOME`, sorted by semantic version. The currently active version is marked with `*` and `(active)`.
+
+```batch
+winnvm -l
+```
+
+or
+
+```batch
+winnvm --list
+```
+
+## Use an Installed Version of Node.js
+
+Switch the active Node.js version by pointing `NVM_SYMLINK` to the selected version using a Windows directory junction (`mklink /J`).
 
 ```batch
 winnvm -u <version>
@@ -47,9 +64,9 @@ or
 winnvm --use <version>
 ```
 
-## To uninstall a verson of NodeJS.
+## Uninstall a Version of Node.js
 
-To remove/uninstall an installed version of NodeJS use the following command where `<version>` is the version of the NodeJS.
+Remove an installed version of Node.js from `NVM_HOME`. If the target version is currently active, switch to another version with `--use` before removing it.
 
 ```batch
 winnvm -r <version>
