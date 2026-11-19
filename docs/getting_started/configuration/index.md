@@ -13,13 +13,13 @@ WinNvm reads optional configuration from `%USERPROFILE%\.winnvmrc` in JSON forma
 
 ```json
 {
-  "NodeMirror": "https://nodejs.org/dist/"
+  "nodemirror": "https://nodejs.org/dist/"
 }
 ```
 
 | Property     | Default                    | Description                                                                 |
 |--------------|----------------------------|-----------------------------------------------------------------------------|
-| `NodeMirror` | `https://nodejs.org/dist/` | Base URL of the Node.js distribution mirror (a trailing `/` is added if omitted). |
+| `nodemirror` | `https://nodejs.org/dist/` | Base URL of the Node.js distribution mirror (a trailing `/` is added if omitted). |
 
 Property names are matched case-insensitively.
 
